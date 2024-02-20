@@ -1,0 +1,41 @@
+Refined SRS (Software Requirements Specification):
+
+1. **Homepage Design:**
+   - The homepage should feature an aesthetically pleasing background with a light color tone, implemented using the `background-color` property.
+
+2. **Candidate Registration Form:**
+   - The homepage must include a registration form allowing candidates to enroll in specific courses.
+
+3. **Form Specifications:**
+   - The registration form should include the following fields:
+     - First Name
+     - Last Name
+     - Date of Birth
+     - Phone Number
+     - Obtained GPA in High School (Decimal field, Text not allowed)
+     - Address: Address1, City, Province, Province code (Text boxes for Address and City, Dropdown for Province with numerical codes)
+
+4. **Educational Background:**
+   - Include a field for the candidate to specify the school they have previously attended.
+
+5. **Course Selection:**
+   - Provide a dropdown menu for the candidate to choose the desired course from options such as BSC, BSCIT, MBBS, BTECH.
+
+6. **Data Validation:**
+   - The system should validate the form to ensure all required fields are filled. If any field is left empty, the system should prompt the user for completion.
+
+7. **Submission Handling:**
+   - A submit button should be integrated into the form. Upon clicking, all entered information should be displayed in a table beneath the form.
+
+8. **Database Integration (Bonus):**
+   - Optionally, the system can save the submitted information to a database using SQL queries for future reference.
+
+9. **Visual Enhancements:**
+   - Implement borders, margins, and paddings for a polished look.
+   - Utilize a different font family for improved readability.
+   - Employ visually appealing colors to enhance the overall design.
+
+10. **Branding Element:**
+    - Integrate the Glorious Academy logo at the top of the page using an image element.
+
+By adhering to these specifications, the College Registration Portal website will offer a visually appealing, user-friendly, and functional interface for prospective students.
