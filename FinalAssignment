@@ -24,11 +24,11 @@ Refined SRS (Software Requirements Specification):
 6. **Data Validation:**
    - The system should validate the form to ensure all required fields are filled. If any field is left empty, the system should prompt the user for completion.
 
-7. **Submission Handling:**
+7. **Submission Handling:** (ONLY for 12)
    - A submit button should be integrated into the form. Upon clicking, all entered information should be displayed in a table beneath the form.
     (HINT : https://www.w3schools.com/jsref/met_table_insertrow.asp#:~:text=The%20insertRow()%20method%20creates,method%20to%20remove%20a%20row.)
 
-8. **Database Integration (Bonus):**
+8. **Database Integration (Bonus):** (Only for 12)
    - Optionally, the system can save the submitted information to a database using SQL queries for future reference.
 
 9. **Visual Enhancements:**
